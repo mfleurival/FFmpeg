@@ -1,5 +1,7 @@
 # FFmpeg MCP Server
 
+![FFmpeg MCP](FFmpeg-MCP.png)
+
 A Model Context Protocol (MCP) server that provides tools for video and audio processing using FFmpeg.
 
 ## Features
