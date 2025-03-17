@@ -1,0 +1,24 @@
+{
+  "name": "ffmpeg-server",
+  "version": "1.0.0",
+  "description": "FFmpeg MCP server for video and audio processing",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc -w"
+  },
+  "keywords": ["mcp", "ffmpeg", "video", "audio"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "fluent-ffmpeg": "^2.1.2",
+    "@types/fluent-ffmpeg": "^2.1.24"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "^20.11.24"
+  }
+}
