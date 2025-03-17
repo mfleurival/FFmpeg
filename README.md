@@ -1,6 +1,6 @@
 # FFmpeg MCP Server
 
-![FFmpeg MCP](FFmpeg-MCP.png)
+<img src="FFmpeg-MCP.png" alt="FFmpeg MCP" width="500" />
 
 A Model Context Protocol (MCP) server that provides tools for video and audio processing using FFmpeg.
 
